@@ -239,7 +239,7 @@
         </CSVDataSet>
         <hashTree/>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
-          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <boolProp name="ResultCollector.error_logging">true</boolProp>
           <objProp>
             <name>saveConfig</name>
             <value class="SampleSaveConfiguration">
@@ -275,7 +275,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">${dirpath}/results/vrt.xml</stringProp>
         </ResultCollector>
         <hashTree/>
         <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
@@ -494,6 +494,14 @@
           <boolProp name="include_checkbox_state">false</boolProp>
           <boolProp name="exclude_checkbox_state">false</boolProp>
         </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
+        <hashTree/>
+        <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
+          <stringProp name="FileSaver.filename"></stringProp>
+          <boolProp name="FileSaver.errorsonly">true</boolProp>
+          <boolProp name="FileSaver.successonly">false</boolProp>
+          <boolProp name="FileSaver.skipsuffix">false</boolProp>
+          <boolProp name="FileSaver.skipautonumber">false</boolProp>
+        </ResultSaver>
         <hashTree/>
       </hashTree>
     </hashTree>
