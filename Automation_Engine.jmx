@@ -496,7 +496,7 @@
         </kg.apc.jmeter.vizualizers.CorrectedResultCollector>
         <hashTree/>
         <ResultSaver guiclass="ResultSaverGui" testclass="ResultSaver" testname="Save Responses to a file" enabled="true">
-          <stringProp name="FileSaver.filename"></stringProp>
+          <stringProp name="FileSaver.filename">${dirpath}/results/save_respone_file</stringProp>
           <boolProp name="FileSaver.errorsonly">true</boolProp>
           <boolProp name="FileSaver.successonly">false</boolProp>
           <boolProp name="FileSaver.skipsuffix">false</boolProp>
