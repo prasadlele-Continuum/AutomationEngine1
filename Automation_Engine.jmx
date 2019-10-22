@@ -251,13 +251,13 @@
               <code>true</code>
               <message>true</message>
               <threadName>true</threadName>
-              <dataType>true</dataType>
-              <encoding>true</encoding>
-              <assertions>true</assertions>
+              <dataType>false</dataType>
+              <encoding>false</encoding>
+              <assertions>false</assertions>
               <subresults>true</subresults>
               <responseData>true</responseData>
               <samplerData>true</samplerData>
-              <xml>true</xml>
+              <xml>false</xml>
               <fieldNames>false</fieldNames>
               <responseHeaders>true</responseHeaders>
               <requestHeaders>true</requestHeaders>
@@ -265,7 +265,6 @@
               <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
               <assertionsResultsToSave>0</assertionsResultsToSave>
               <bytes>true</bytes>
-              <sentBytes>true</sentBytes>
               <url>true</url>
               <fileName>true</fileName>
               <hostname>true</hostname>
@@ -278,7 +277,7 @@
           <stringProp name="filename">${dirpath}/results/vrt${__time(ddMMMyy_HHmm)}.xml</stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
+        <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -312,7 +311,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">${dirpath}/results/agr_report${__time(ddMMMyy_HHmm)}.xml</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
