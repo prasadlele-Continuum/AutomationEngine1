@@ -311,7 +311,7 @@
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">${dirpath}/results/agr_report${__time(ddMMMyy_HHmm)}.xml</stringProp>
+          <stringProp name="filename">${dirpath}/results/agr_report${__time(ddMMMyy_HHmm)}.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
