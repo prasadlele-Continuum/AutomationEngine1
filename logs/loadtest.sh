@@ -5,7 +5,7 @@ read -p "Please Enter number of Iteration/loop count : " loopcount
 URL=internal-alerting-int-clb-1775650714.us-east-1.elb.amazonaws.com
 dttime=`date +%d%b%Y_%H%M%S`
 projectpath=/root/PT/projects/AutomationEngine
-ThinkTime=500
+ThinkTime=3000
 filename="$ReportfileName"_"$dttime".jtl
 
 echo
