@@ -1,9 +1,0 @@
-Java HotSpot(TM) 64-Bit Server VM (25.131-b11) for linux-amd64 JRE (1.8.0_131-b11), built on Mar 15 2017 01:23:40 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
-Memory: 4k page, physical 15835468k(14258148k free), swap 0k(0k free)
-CommandLine flags: -XX:G1ReservePercent=20 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/root/PT/projects/AutomationEngine/logs/GC -XX:InitialHeapSize=4294967296 -XX:+ManagementServer -XX:MaxGCPauseMillis=100 -XX:MaxHeapSize=4294967296 -XX:MaxMetaspaceSize=268435456 -XX:MaxNewSize=536870912 -XX:NewSize=268435456 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC 
-2020-01-01T13:09:00.216+0530: 1.038: Total time for which application threads were stopped: 0.0000942 seconds, Stopping threads took: 0.0000170 seconds
-Heap
- garbage-first heap   total 4194304K, used 4096K [0x00000006c0000000, 0x00000006c0204000, 0x00000007c0000000)
-  region size 2048K, 3 young (6144K), 0 survivors (0K)
- Metaspace       used 4389K, capacity 4616K, committed 4736K, reserved 1056768K
-  class space    used 517K, capacity 520K, committed 640K, reserved 1048576K
